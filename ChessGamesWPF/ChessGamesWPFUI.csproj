@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="graphics\blackBishop.png" />
+    <None Remove="graphics\blackKing.png" />
+    <None Remove="graphics\blackKnight.png" />
+    <None Remove="graphics\blackPawn.png" />
+    <None Remove="graphics\blackQueen.png" />
+    <None Remove="graphics\blackRook.png" />
+    <None Remove="graphics\ChessBoard.png" />
+    <None Remove="graphics\whiteBishop.png" />
+    <None Remove="graphics\whiteKing.png" />
+    <None Remove="graphics\whiteKnight.png" />
+    <None Remove="graphics\whitePawn.png" />
+    <None Remove="graphics\whiteQueen.png" />
+    <None Remove="graphics\whiteRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Games\Games.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="graphics\blackBishop.png" />
+    <Resource Include="graphics\blackKing.png" />
+    <Resource Include="graphics\blackKnight.png" />
+    <Resource Include="graphics\blackPawn.png" />
+    <Resource Include="graphics\blackQueen.png" />
+    <Resource Include="graphics\blackRook.png" />
+    <Resource Include="graphics\ChessBoard.png" />
+    <Resource Include="graphics\whiteBishop.png" />
+    <Resource Include="graphics\whiteKing.png" />
+    <Resource Include="graphics\whiteKnight.png" />
+    <Resource Include="graphics\whitePawn.png" />
+    <Resource Include="graphics\whiteQueen.png" />
+    <Resource Include="graphics\whiteRook.png" />
+  </ItemGroup>
+
+</Project>

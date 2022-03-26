@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChessGamesConsoleUI": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
